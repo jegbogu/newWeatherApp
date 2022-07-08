@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<%-include('partials/head') %> 
+<link rel="stylesheet" href="CSS/index.css">
+<title>Wheather App</title>
+<body>
+    <div class="nav">
+        <h1>Wheather APP</h1>
+        <hr style="color:gray;" width="50%">
+        <hr style="color:gray;" width="30%">
+    </div>
+    <div class="containerDisplay">
+        <p class="display"></p>
+    </div>
+     <div class="container">
+         <p class="temp">Temperature:<span id="temp"></span></p>
+         <p class="humidity">Humidity:<span id="humidity"></span></p>
+         <p class="error"></p>
+         
+     </div>
+    <form >
+        <label for="city">City : </label>
+        <input type="text" name="city" id="city">
+        <button type="submit" id="submit">Submit</button>
+    </form>
+    
+
+
+    <script src="JavaScript/index.js"></script>
+</body>
+</html>

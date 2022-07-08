@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+}
+.nav{
+    color: aqua;
+    text-align: center;
+}
+label{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:1.5em;
+    
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+}
+input[type='text']{
+    width: 30%;
+    padding: 10px;
+    border: none;
+    opacity:80%;
+    border-radius: 30px;
+}
+button{
+    padding: 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 30px;
+    font-weight: bolder;
+
+}
+p.display{
+    color: white;
+    font-size: 5em;
+}
+.containerDisplay{
+    margin-left: 580px;
+    position: relative;
+}
+.container{
+    color: white;
+    display: none;
+    margin-left: 550px;
+
+}
+.temp{
+    font-size: 1.8em;
+    font-weight: bolder;
+    color: aqua;
+}
+.humidity{
+    font-size: 1.8em;
+    font-weight: bolder;
+    color: rgb(166, 166, 206);
+}
+#temp{
+    font-size: 1.8em;
+    font-weight: bolder;
+    color: rgb(255, 221, 0);
+    margin-left: 10px;
+
+}
+#humidity{
+    font-size: 1.8em;
+    font-weight: bolder;
+    color: rgb(166, 166, 206);
+    margin-left: 10px;
+}
+.error{
+    color: aliceblue;
+    
+}
